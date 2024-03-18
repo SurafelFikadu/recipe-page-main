@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(30, 18%, 87%);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#card {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    max-width: 370px;
+    margin-top: 20px;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 20px;
+}
+
+img {
+    width: 370px;
+}
+
+.text {
+    padding: 20px;
+}
+
+.simple {
+    margin: 5.5px;
+    margin-bottom: 20px;
+}
+
+.simple h1 {
+    margin-bottom: 20px;
+}
+
+.preparation {
+    padding: 20px;
+    padding-bottom: 0;
+    background: hsl(30, 18%, 87%);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.preparation ul {
+    padding: 30px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.preparation h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients {
+    padding: 20px;
+    line-height: 25px;
+}
+
+.ingredients ul {
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions {
+    padding: 20px;
+    line-height: 25px;
+}
+
+.instructions ol {
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.nutrition {
+    padding: 20px;
+    line-height: 25px;
+}
+
+.space {
+    padding: 10px;
+}
+
+.classic {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 70px 7px 25px;
+}
+
+span {
+    left: 0px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+@media(min-width: 768px) {
+    #card {
+        background-color: hsl(0, 0%, 100%);
+        margin: 0 auto;
+        max-width: 725px;
+        margin-top: 20px;
+        color: hsl(24, 5%, 18%);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 670px;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 25px;
+        border-radius: 20px;
+    }
+}
